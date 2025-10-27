@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+
+<div class="logcontainer">
+    <h2>LOG IN</h2>
+    <form action="">
+        <p id="mess"></p>
+        <label for="email" id="lab">Email</label>
+        <br>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+        <label for="Password">Password</label>
+        <br>
+        <input type="pass" name="pass" id="pass">
+        <br>
+        <br>
+        <button class="login" onclick="login(event)">Log in</button>
+
+        <div class="down">
+            <p>Forget your Password? <a href="#">Reset your password</a></p>
+            <p>Don't haave an account? <a href="#">Sign up</a></p>
+        </div>
+    </form>
+</div>
+<script src="index.js"></script>   
+</body>
+</html>

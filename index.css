@@ -1,0 +1,80 @@
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f9fb;
+      padding: 100px;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+    }
+
+.logcontainer{
+background-color: white;
+ border-radius: 6px;
+box-shadow: 0 0 15px rgba(0,0,0,0.1);
+width: 700px;
+text-align: center;
+height: 600px;
+margin: auto;
+}
+.logcontainer h2{
+    padding-top: 50px;
+    font-size: 30px;
+}
+label{ 
+      margin-right: 500px;
+      font-size: 20px;
+      color: #474343;
+}
+#lab{
+    margin-left: -30px;
+}
+form{
+    margin-top: 80px;
+}
+input{
+      width: 80%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+      height: 35px;
+      outline: none;
+      border: 2px solid skyblue;
+    }
+
+input:focus {
+      border-color: #1a73e8;
+      outline: none;
+      box-shadow: 0 0 3px rgba(26,115,232,0.4);
+}
+
+.login{
+     height: 60px;
+     width: 85%;
+     border-radius:5px;
+     background-color: #28a745;
+     border: none;
+     color: white;
+     font-size: 18px;
+
+     
+}
+.login:hover{
+    cursor: pointer;
+    box-shadow: 0 0 3px #358f4a ;
+}
+.down{
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.down a{
+    color: #28a745;
+    font-size: 17px;
+}
